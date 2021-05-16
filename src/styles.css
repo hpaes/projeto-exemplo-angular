@@ -24,14 +24,24 @@ body {
   background-color: #f0adb4;
 }
 
-/* @media (max-width: 1200px) {
+@media screen and (max-width: 1200px) {
   .mat-card {
-    width: 100%;
+    width: 80%;
   }
-} */
+}
 
-@media screen, (min-width: 600px) and (max-width: 1200px) {
+@media screen and (min-width: 1000px) {
   .mat-card {
-    width: 40%;
+    width: 50%;
   }
+}
+
+.msg-success {
+  background-color: #28a745;
+  color: #fff;
+}
+
+.msg-error {
+  background-color: #eb818c;
+  color: #fff;
 }
