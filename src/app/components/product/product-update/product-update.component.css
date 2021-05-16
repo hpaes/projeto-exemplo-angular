@@ -1,3 +1,16 @@
+mat-card {
+  max-width: 30%;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
 p {
   color: black;
+}
+
+button {
+  margin: 1.5rem 1.5rem 0 0;
 }
